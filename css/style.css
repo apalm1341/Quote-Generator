@@ -1,0 +1,46 @@
+/*This is a CSS comment!background-color below for body makes everything black except for image!*/
+body{
+  background-color:black;
+  font-family:"Times New Roman";/*button supposed to get smaller as well as text within button should be changing as well as text within other box should be changing as well!however, button not changing at all for some weird reason!*/
+}
+
+h1{/*this makes h1 text white!*/
+  color:white;
+  font-family:"Times New Roman";
+  font-size:80px;
+}
+/*code below will make p element text white!*/
+p{
+  color:white;
+  font-family:"Times New Roman";
+  font-style:italic;
+  font-size:20px;
+}
+img{
+  padding:25px; /*this gives the image some more space to separate it from text above and button below!*/
+}
+
+.quotes{
+  /*background-color:grey;*//*This creates a grey box around quotes div!*/
+  width:33%;/*shortened grey box to left hand side!*/
+  margin-right:auto;
+  margin-left:auto; /*Both margin autos centered grey box!*/
+  border-color:white;
+  border-style:solid;/*need border-style solid in order to allow border color to work and create white border around grey box!*/
+  border-radius:5px; /*This creates curved/round white edges at corners of grey box!*/
+  margin-top:20px; /*gives/makes 20px of black space above grey div box*/
+  padding:20px;  /*gives/makes more grey space above and below span text(Hello,World!-The world) within grey div box!*/
+  height:auto;/*add this so that words don't get too big and it is gonna go out for me and won't look good at all!this height:auto; didn't do anything for me tho the moment I added it!*/
+color:white; /*makes text within grey div box white!*/
+}
+
+.quotes{
+  font-size:30px; /*This makes text("Hello, World!-The world) bigger within div box at bottom of page*/
+  
+}
+
+.author{ /*deals with changing "The world/<span class="author">-The world</span> text!*/
+  font-size:20px;
+  font-style:italic;
+}
+
